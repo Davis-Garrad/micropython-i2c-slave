@@ -32,6 +32,8 @@ $(VERBOSE)MAKESILENT = -s
 
 CMAKE_ARGS = -DMICROPY_BOARD=$(BOARD) -DMICROPY_BOARD_DIR="$(abspath $(BOARD_DIR))"
 
+USER_C_MODULES=../../user_modules/i2c_slave/micropython.cmake
+
 ifdef USER_C_MODULES
 CMAKE_ARGS += -DUSER_C_MODULES=${USER_C_MODULES}
 endif
