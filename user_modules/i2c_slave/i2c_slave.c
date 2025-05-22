@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021 Valentin Milea <valentin.milea@gmail.com>
+ * Copyright (c) 2025 Davis V. Garrad  <dvlast@uwaterloo.ca>
  *
  * SPDX-License-Identifier: MIT
  */
